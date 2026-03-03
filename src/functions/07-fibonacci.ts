@@ -22,6 +22,18 @@ const max = 0
 fibonacci(max) => return []
 */
 
-export const fibonacci = () => {
+export const fibonacci = (number : number) => {
+    let result : number[] = []
+    if(number === 0) return result
+
+    for(let i = 0 ; i < number ; i++){
+        if(i<2)result.push(i)
+        else{
+        const add = result[i-2] + result[i-1]
+        result.push(add)
+        }
+    }
+
+    return result
     
 }

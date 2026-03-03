@@ -1,4 +1,5 @@
 import { describe, test, expect } from "vitest";
+import { fibonacci } from "../functions/07-fibonacci"
 
 describe("fibonacci", () => {
   test("returns empty array for 0", () => {
