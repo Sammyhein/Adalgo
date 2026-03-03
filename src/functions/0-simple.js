@@ -8,3 +8,7 @@ let splitWord =mot.split('ines')
 splitWord.push("coucou")
 
 console.log(mot + "coucou")
+
+let phrase = "pains au chocolat"
+
+console.log(phrase.split("un pains au chocolat"))

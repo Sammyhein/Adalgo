@@ -1,6 +1,7 @@
 import { describe, test, expect, beforeEach, vi } from "vitest";
 import { filterLetter } from "../functions/02-filterLetter"
 
+// describe c'est bien de le faire quand tu as plusieurs test à faire et que tu as besoin d'en assembler certains, ici dans le projet on voit comment ça peut etre utilisé mais comme chaque exercice est dans un fichier différent, describe n'est pas vraiment necessaire
 
 describe("filterLetter", () => {
   const letterCallback = vi.fn((e) => `${e} is a letter`);
