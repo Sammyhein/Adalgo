@@ -18,3 +18,17 @@ console.log(mot*2)
 const obj = {a: 1, b: 2}
 
 console.log(Object.entries(obj))
+
+// for(let i=0; i < phrase.length; i++){
+//     console.log(phrase[i])
+// }
+
+let objet = {
+        letters: 0,
+        words: 0,
+        sentences: 0
+    }
+
+objet.letters +=1
+
+console.log(objet)
