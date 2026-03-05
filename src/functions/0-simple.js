@@ -11,4 +11,10 @@ console.log(mot + "coucou")
 
 let phrase = "pains au chocolat"
 
-console.log(phrase.split("un pains au chocolat"))
+phrase.includes("au")
+
+console.log(mot*2)
+
+const obj = {a: 1, b: 2}
+
+console.log(Object.entries(obj))
